@@ -1,0 +1,81 @@
+#fullpage {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* padding: 0 !important; */
+    flex-direction: column;
+}
+
+/*star css */
+.star {
+    visibility: hidden;
+    font-size: 29px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 2px !important;
+}
+.star:before {
+    content: "\2605";
+    position: absolute;
+    visibility: visible;
+    color: #d08411;
+    margin-right: 31px;
+    top: -10px;
+}
+.star:checked:before {
+   content: "\2606";
+   position: absolute;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    /* width: 70%; */
+    box-shadow: 0 0 2px 2px #8080806e;
+}
+header.headname {
+    color: #000000c2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+p {
+    text-align: left;
+    font-size: 12px;
+    line-height: 3;
+}
+table.table.table-bordered.table-striped {
+    text-align: center;
+    font-size: 12px;
+}
+button#submit {
+    text-align: left;
+    float: left;
+    border-radius: 0;
+    background: #80808087;
+    border: none;
+    text-transform: capitalize;
+    color: #000;
+}
+th.theadlist {
+    text-align: left;
+}
+sup {
+    top: -2px;
+    color: red;
+}
+.labels {
+    font-size: 12px;
+    margin-left: 7px;
+}
+form#survey-form {
+    /* padding: 2%; */
+    width: 93%;
+    margin: 0 auto;
+}
