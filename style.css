@@ -29,11 +29,12 @@
    position: absolute;
 }
 
-.justify-content-center {
-    -ms-flex-pack: center!important;
-    justify-content: center!important;
-    /* width: 70%; */
+.survey-form {
+ 
     box-shadow: 0 0 2px 2px #8080806e;
+    width: 92%;
+    padding: 1% 1%;
+    margin: 4px 2%;
 }
 header.headname {
     color: #000000c2;
@@ -73,9 +74,4 @@ sup {
 .labels {
     font-size: 12px;
     margin-left: 7px;
-}
-form#survey-form {
-    /* padding: 2%; */
-    width: 93%;
-    margin: 0 auto;
 }
