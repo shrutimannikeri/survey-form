@@ -1,11 +1,7 @@
 #fullpage {
     height: 100%;
     text-align: center;
-    display: flex;
-    align-items: center;
-    position: relative;
     /* padding: 0 !important; */
-    flex-direction: column;
 }
 
 /*star css */
@@ -32,9 +28,7 @@
 .survey-form {
  
     box-shadow: 0 0 2px 2px #8080806e;
-    width: 92%;
-    padding: 1% 1%;
-    margin: 4px 2%;
+   
 }
 header.headname {
     color: #000000c2;
